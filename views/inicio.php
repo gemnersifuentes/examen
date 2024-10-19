@@ -50,7 +50,7 @@ $ejercicios = [
             <!-- MENU DE NAVEGACION -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active pt-1 pb-1" href="/examen">Inicio</a>
+                    <a class="nav-link active pt-1 pb-1" href="<?php echo asset('')?>">Inicio</a>
                     <!-- RECORREMOS EL ARRAY DE EJERCICIOS PARA MOSTRARLOS EN EL MENU DE NAVEGACION -->
                     <?php foreach ($ejercicios as $key => $ejercicio) { ?>
                         <a class="nav-link border rounded-pill border-secondary pt-1 pb-1 mr-1 ml-1" href="<?php echo $ejercicio['link'] ?>"><?php echo $ejercicio['titulo'] ?></a>

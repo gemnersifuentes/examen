@@ -84,7 +84,7 @@ $clientes = [
                 </table>
             </div>
             <div class="card-footer">
-            <a href="index.php" class="btn btn-primary">Regresar</a>
+            <a href="<?php echo asset('')?>" class="btn btn-primary">Regresar</a>
             </div>
         </div>
 
